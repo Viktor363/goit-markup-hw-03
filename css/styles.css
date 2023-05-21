@@ -1,10 +1,11 @@
-:root {
+   :root {
    --white-color: #ffffff;
    --black-logo-color:#2e2f42;
    --black-contacts-color:#434455;
    --blue-logo-color: #4d5ae5;
    --all-button-color: #F4F4FD;
 }
+   /* Global style */
 body {
    font-family: 'Roboto', sans-serif;
    color: #434455;
@@ -20,6 +21,57 @@ body {
   .list {
      list-style: none;
   }
+      h1,
+      h2,
+      h3,
+      p,
+      ul {
+         margin: 0;
+   }
+            .container {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               flex-direction: row;
+               width: 1158px;
+               padding-left: 15px;
+               padding-right: 15px;
+               margin-left: auto;
+               margin-right: auto;
+            }
+    .logo {
+   
+      flex-direction: row;
+      align-items: center;
+      padding-top: 25.5px;
+       padding-right: 76px; 
+      padding-bottom: 25.5px;
+      padding-left: 0px;
+      }
+    .nav-list {
+      display: flex;
+         flex-direction: row;
+         align-items: center;
+         padding-top: 24px;
+         padding-right: 0px;
+         padding-bottom: 24px;
+          padding-left: 76px;
+         gap: 40px;
+    }
+     .address-list {
+      display: flex;
+         align-items: center;
+         flex-direction: row;
+         padding-top: 24px;
+         padding-right: 0px;
+         padding-bottom: 24px;
+         gap: 40px;
+     }
+    
+   /* Logo */
+   .logo {
+      list-style: none;
+   }
    .web-link {
       font-family: 'Raleway',
             sans-serif;
@@ -30,13 +82,13 @@ body {
       line-height: 1.17;
       text-transform: uppercase;
       text-decoration: none;
-      text-decoration: none;
       color: var(--blue-logo-color);
-     
-   }
+     }
 .studio-link {
+   /* margin-right: 76px; */
    color: var(--black-logo-color);
     }
+    /* Nav.menu */
   .nav-link {
    font-family: 'Roboto';
    font-style: normal;
@@ -52,7 +104,7 @@ body {
   .nav-link:focus { 
    color: #404bbf;
    } 
-   
+   /* Contacts */
  .address {
    font-style: normal;
    }
@@ -73,6 +125,7 @@ body {
    letter-spacing: 0.02em;
    color: #ffffff;
  }
+  /* Button Hero */
    .button-hero {
    font-family: "Roboto" , sans-serif;
    font-style: normal;
@@ -89,6 +142,7 @@ body {
  .button-hero:focus{
    background-color: #404BBF;
  }
+  /* Button Portfolio */
    .btn-item {
    font-family: "Roboto", sans-serif;
        font-weight: 500;
@@ -105,6 +159,7 @@ body {
       background-color: #404BBF;
 
    }
+   /* Section 1 */
  .section-list {
    list-style: none;
  }
@@ -121,6 +176,8 @@ body {
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
    }
+    /* < !-- Illustration images --> */
+      
    .portfolio-title-list {
       font-weight: 500;
          font-size: 20px;
@@ -148,6 +205,7 @@ body {
    .section-images {
    background-color: #F4F4FD;
    } 
+    /* Footer */
     .footer {
       background-color: var(--black-logo-color);
    } 
