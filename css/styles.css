@@ -40,31 +40,24 @@ body {
                margin-right: auto;
             }
     .logo {
-   
-      flex-direction: row;
+    flex-direction: row;
       align-items: center;
-      padding-top: 25.5px;
-       padding-right: 76px; 
-      padding-bottom: 25.5px;
-      padding-left: 0px;
+      margin-left: 76px;
+      .nav-menu {
+         display: flex;
       }
     .nav-list {
-      display: flex;
+      display: block;
          flex-direction: row;
          align-items: center;
-         padding-top: 24px;
-         padding-right: 0px;
-         padding-bottom: 24px;
-          padding-left: 76px;
-         gap: 40px;
+         padding: 24px 0;
+        gap: 40px;
     }
      .address-list {
       display: flex;
          align-items: center;
          flex-direction: row;
-         padding-top: 24px;
-         padding-right: 0px;
-         padding-bottom: 24px;
+        
          gap: 40px;
      }
     
