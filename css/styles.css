@@ -27,6 +27,7 @@ body {
       p,
       ul {
          margin: 0;
+         padding-left: 0;
    }
             .container {
                display: flex;
@@ -39,32 +40,30 @@ body {
                margin-left: auto;
                margin-right: auto;
             }
-    .logo {
-    flex-direction: row;
-      align-items: center;
-      margin-left: 76px;
-      .nav-menu {
-         display: flex;
-      }
-    .nav-list {
-      display: block;
+            .nav-menu {
+               display: flex;
+               padding: 0;
+               margin: 0;
+            }
+     .nav-list {
+      display: flex;
          flex-direction: row;
          align-items: center;
          padding: 24px 0;
+         margin: 0;
         gap: 40px;
     }
      .address-list {
       display: flex;
          align-items: center;
          flex-direction: row;
-        
-         gap: 40px;
+         padding: 24px 0;
+            margin: 0;
+        gap: 40px;
      }
     
    /* Logo */
-   .logo {
-      list-style: none;
-   }
+   
    .web-link {
       font-family: 'Raleway',
             sans-serif;
