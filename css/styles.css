@@ -148,26 +148,26 @@ body {
  .button-hero:focus{
    background-color: #404BBF;
  }
-  /* Button Portfolio */
-   .btn-item {
-   font-family: "Roboto", sans-serif;
-       font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      cursor: pointer;
-     color: #4d5ae5;
-     background-color: #F4F4FD;
+  
+   /* Section 2 */
+   .section-container {
+      padding: 120px 0;
    }
-   .btn-item:hover,
-   .btn-item:focus {
-      color: #FFFFFF;
-      background-color: #404BBF;
-
-   }
-   /* Section 1 */
+      .visually-hidden {
+         position: absolute;
+         width: 1px;
+         height: 1px;
+         margin: -1px;
+         padding: 0;
+         overflow: hidden;
+         border: 0;
+         clip: rect(0 0 0 0);
+      }
  .section-list {
    list-style: none;
+   display: flex;
+   gap: 24px;
+   width calc((100% - 3 * 24px) / 4)
  }
  .section-title-list {
    font-weight: 500;
@@ -182,26 +182,7 @@ body {
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
    }
-    /* < !-- Illustration images --> */
-      
-   .portfolio-title-list {
-      font-weight: 500;
-         font-size: 20px;
-         line-height: 1.2;
-         letter-spacing: 0.02em;
-      color: var(--black-logo-color);
-   }
-   .portfolio-text-list {
-   color: var(--black-contacts-color);
-   }
-   .presentation {
-      font-size: 36px;
-         line-height: 1.11;
-         letter-spacing: 0.02em;
-         text-align: center;
-         text-transform: capitalize;
-         color: var(--black-logo-color);
-   }
+    
    .team {
       background-color: #ffffff;
    }
@@ -235,6 +216,46 @@ body {
       letter-spacing: 0.02em;
       color: #F4F4FD;
    }
+      /* Buttons Portfolio */
+      .btn-item {
+         font-family: "Roboto", sans-serif;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 1.5;
+         letter-spacing: 0.04em;
+         cursor: pointer;
+         color: #4d5ae5;
+         background-color: #F4F4FD;
+      }
+   
+      .btn-item:hover,
+      .btn-item:focus {
+         color: #FFFFFF;
+         background-color: #404BBF;
+   
+      }
+            /* < !-- Illustration images --> */
+      
+            .portfolio-title-list {
+               font-weight: 500;
+               font-size: 20px;
+               line-height: 1.2;
+               letter-spacing: 0.02em;
+               color: var(--black-logo-color);
+            }
+      
+            .portfolio-text-list {
+               color: var(--black-contacts-color);
+            }
+      
+            .presentation {
+               font-size: 36px;
+               line-height: 1.11;
+               letter-spacing: 0.02em;
+               text-align: center;
+               text-transform: capitalize;
+               color: var(--black-logo-color);
+            }
    
   
 
