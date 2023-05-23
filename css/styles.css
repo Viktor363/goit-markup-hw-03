@@ -75,9 +75,9 @@ body {
       text-transform: uppercase;
       text-decoration: none;
       color: var(--blue-logo-color);
+       margin-right: 76px; 
      }
 .studio-link {
-   /* margin-right: 76px; */
    color: var(--black-logo-color);
     }
     /* Nav.menu */
@@ -91,6 +91,8 @@ body {
     line-height: 1.5; 
    color: var(--black-logo-color);
    text-decoration: none;
+   display: block;
+   padding: 24px 0;
    }
   .nav-link:hover,
   .nav-link:focus { 
