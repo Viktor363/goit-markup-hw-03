@@ -4,11 +4,13 @@
    --black-contacts-color:#434455;
    --blue-logo-color: #4d5ae5;
    --all-button-color: #F4F4FD;
+   --header-button-color:#e7e9fc;
+   --blue-text-color:#404bbf;
 }
    /* Global style */
 body {
    font-family: 'Roboto', sans-serif;
-   color: #434455;
+   color: var(--black-contacts-color);
    background-color :var(--white-color);
 }
   .link {
@@ -65,13 +67,13 @@ body {
      }
     /* Header */
     .header {
-      border-bottom: 1px solid #e7e9fc;
+      border-bottom: 1px solid var(--header-button-color);
     }
    /* Logo */
     .web-link {
       font-family: 'Raleway',
             sans-serif;
-      font-style: normal;
+      
       font-weight: 800;
       font-size: 18px;
       letter-spacing: 0.03em;
@@ -87,7 +89,7 @@ body {
     /* Nav.menu */
   .nav-link {
    font-family: 'Roboto';
-   font-style: normal;
+   
    text-transform: capitalize;
    font-weight: 500;
    font-size: 16px;
@@ -100,7 +102,7 @@ body {
    }
   .nav-link:hover,
   .nav-link:focus { 
-   color: #404bbf;
+   color: var(--blue-text-color);
    } 
    /* Contacts */
  .address {
@@ -108,7 +110,7 @@ body {
    }
    .link:hover,
    .link:focus {
-   color: #404bbf;
+   color: var(--blue-text-color);
    }
   .portfolio-list {
    list-style: none;
@@ -123,20 +125,20 @@ body {
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
-   color: #ffffff;
+   color:var(--white-color);
    max-width: 496px;
  }
   /* Button Hero */
    .button-hero {
    font-family: "Roboto" , sans-serif;
-   font-style: normal;
+   
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
-   background-color: #4D5AE5;
+   background-color: var(--blue-logo-color);
    cursor: pointer;
-   color: #ffffff;
+   color: var(--white-color);
    display: block;
    min-width: 169px;
    height: 56px;
@@ -146,7 +148,7 @@ body {
  }
  .button-hero:hover,
  .button-hero:focus{
-   background-color: #404BBF;
+   background-color: var(--blue-text-color);
  }
   
    /* Section 2 */
@@ -184,13 +186,13 @@ body {
    }
     
    .team {
-      background-color: #ffffff;
+      background-color: var(--white-color);
    }
    .section-persons {
-      background-color: #F4F4FD;
+      background-color: var(--all-button-color);
    }
    .section-images {
-   background-color: #F4F4FD;
+   
    } 
     /* Footer */
     .footer {
@@ -199,22 +201,22 @@ body {
    .footer-link {
    font-family: 'Raleway',
          sans-serif;
-   font-style: normal;
+   
    font-weight: 800;
    font-size: 18px;
    line-height: 21px;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: #F4F4FD;
+   color: var(--all-button-color);
    }
    .footer-text {
    font-family: 'Roboto';
-      font-style: normal;
+      
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       letter-spacing: 0.02em;
-      color: #F4F4FD;
+      color: var(--all-button-color);
    }
       /* Buttons Portfolio */
       .btn-item {
@@ -224,14 +226,14 @@ body {
          line-height: 1.5;
          letter-spacing: 0.04em;
          cursor: pointer;
-         color: #4d5ae5;
-         background-color: #F4F4FD;
+         color: var(--blue-logo-color);
+         background-color: var(--all-button-color);
       }
    
       .btn-item:hover,
       .btn-item:focus {
-         color: #FFFFFF;
-         background-color: #404BBF;
+         color: var(--white-color);
+         background-color: var(--blue-text-color);
    
       }
             /* < !-- Illustration images --> */
