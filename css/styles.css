@@ -165,11 +165,17 @@ body {
          clip: rect(0 0 0 0);
          overflow: hidden;
          }
+   .item {
+      width calc((100% - 3 * 24px) / 4)
+  } 
+  .our-goals {
+   margin-bottom: 8px;
+  }
  .section-list {
    list-style: none;
    display: flex;
    gap: 24px;
-   width calc((100% - 3 * 24px) / 4)
+  
  }
  .section-title-list {
    font-weight: 500;
