@@ -57,13 +57,7 @@ body {
          margin: 0;
         gap: 40px;
     }
-     .address-list {
-      display: flex;
-         align-items: center;
-         flex-direction: row;
-        margin: 0;
-        gap: 40px;
-     }
+     
     /* Header */
     .header {
       border-bottom: 1px solid var(--border-color);
@@ -105,13 +99,18 @@ body {
  .address {
    font-style: normal;
    }
+      .address-list {
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+         margin: 0;
+         gap: 40px;
+      }
    .link:hover,
    .link:focus {
    color: var(--blue-text-color);
    }
-  .portfolio-list {
-   list-style: none;
-  }
+  
   /* Section Hero  */
   .hero {
    background-color: var(--black-logo-color);
@@ -189,7 +188,7 @@ body {
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
       text-align: center;
-      
+
    }
    /* Section 3 */
       .section-images {
@@ -233,6 +232,7 @@ body {
     /* Footer */
     .footer {
       background-color: var(--black-logo-color);
+      padding: 100px 0;
    } 
    .footer-link {
    font-family: 'Raleway',
@@ -247,12 +247,16 @@ body {
    }
    .footer-text {
    font-family: 'Roboto';
-      
-      font-weight: 400;
+    font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       letter-spacing: 0.02em;
       color: var(--all-button-color);
+      max-width: 264px;
+   }
+   .a .web-link {
+     display: inline-block;
+     margin-bottom: 16px;
    }
       /* Buttons Portfolio */
       .btn-item {
@@ -272,7 +276,10 @@ body {
          background-color: var(--blue-text-color);
    
       }
-            /* < !-- Illustration images --> */
+            /* < !-- Illustration Images Portfolio--> */
+            .portfolio-list {
+                           list-style: none;
+                        }
       
             .portfolio-title-list {
                font-weight: 500;
