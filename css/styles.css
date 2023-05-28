@@ -4,7 +4,7 @@
    --black-contacts-color:#434455;
    --blue-logo-color: #4d5ae5;
    --all-button-color: #F4F4FD;
-   --header-button-color:#e7e9fc;
+   --border-color:#e7e9fc;
    --blue-text-color:#404bbf;
 }
    /* Global style */
@@ -29,8 +29,7 @@ body {
       p,
       ul {
          margin: 0;
-         
-   }
+         }
             img {
                display: block;
             }
@@ -67,13 +66,12 @@ body {
      }
     /* Header */
     .header {
-      border-bottom: 1px solid var(--header-button-color);
+      border-bottom: 1px solid var(--border-color);
     }
    /* Logo */
     .web-link {
       font-family: 'Raleway',
             sans-serif;
-      
       font-weight: 800;
       font-size: 18px;
       letter-spacing: 0.03em;
@@ -89,7 +87,6 @@ body {
     /* Nav.menu */
   .nav-link {
    font-family: 'Roboto';
-   
    text-transform: capitalize;
    font-weight: 500;
    font-size: 16px;
@@ -183,14 +180,21 @@ body {
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: var(--black-logo-color);
+      text-align: center;
+      margin-bottom: 8px;
    }
    .section-text-list {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
+      text-align: center;
+      
    }
    /* Section 3 */
+      .section-images {
+         padding-bottom: 120px;
+      }
        .presentation {
           font-size: 36px;
           line-height: 1.11;
@@ -206,16 +210,26 @@ body {
          display: flex;
          gap: 24px;
        }
-    
-   .team {
-      background-color: var(--white-color);
-   }
+       .li .images:not(:last-child) {
+         margin-right: 24px;
+       }  
+       .li .images {
+         width: calc((100%-48px) / 3);
+       }  
+       /* Section 4 */
+   
    .section-persons {
       background-color: var(--all-button-color);
+      padding-bottom: 120px;
    }
-   .section-images {
-   padding-bottom: 120px;
-   } 
+      .li .images-team {
+       width: calc((100%-72px) / 4);
+       border-radius: 0px 0px 4px 4px;
+      }
+      .our-team {
+         padding: 32px 16px;
+      }
+    
     /* Footer */
     .footer {
       background-color: var(--black-logo-color);
