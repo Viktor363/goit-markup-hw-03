@@ -251,11 +251,11 @@ body {
       color: var(--all-button-color);
       max-width: 264px;
    }
-   .a .web-link {
+   .web-link {
      display: inline-block;
      margin-bottom: 16px;
    }
-   .a .studio-link{
+    .studio-link{
    display: inline-block;
       margin-bottom: 16px;
    }
