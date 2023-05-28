@@ -190,6 +190,22 @@ body {
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
    }
+   /* Section 3 */
+       .presentation {
+          font-size: 36px;
+          line-height: 1.11;
+          letter-spacing: 0.02em;
+          text-align: center;
+          text-transform: capitalize;
+          color: var(--black-logo-color);
+         margin-bottom: 72px;
+         padding-bottom: 120px;
+       }
+       .presentation-list 
+       {
+         display: flex;
+         gap: 24px;
+       }
     
    .team {
       background-color: var(--white-color);
@@ -198,7 +214,7 @@ body {
       background-color: var(--all-button-color);
    }
    .section-images {
-   
+   padding-bottom: 120px;
    } 
     /* Footer */
     .footer {
@@ -256,14 +272,7 @@ body {
                color: var(--black-contacts-color);
             }
       
-            .presentation {
-               font-size: 36px;
-               line-height: 1.11;
-               letter-spacing: 0.02em;
-               text-align: center;
-               text-transform: capitalize;
-               color: var(--black-logo-color);
-            }
+           
    
   
 
