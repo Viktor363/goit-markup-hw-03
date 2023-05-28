@@ -177,6 +177,8 @@ body {
    list-style: none;
    display: flex;
    gap: 24px;
+   margin: 0;
+   padding-left: 0;
   
  }
  .section-title-list {
@@ -193,7 +195,8 @@ body {
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
-      
+      margin: 0;
+         padding-left: 0;
 
    }
    /* Section 3 */
