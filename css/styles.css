@@ -71,6 +71,7 @@ body {
       color: var(--blue-logo-color);
        margin-right: 76px; 
       display: inline-block;
+      margin-bottom: 16px;
        
      }
 .studio-link {
@@ -156,13 +157,15 @@ body {
    }
       .visually-hidden {
          position: absolute;
-         width: 1px;
-         margin: -1px;
-         border: 0;
-         white-space: nowrap;
-         clip-path: inset(100%);
-         clip: rect(0 0 0 0);
-         overflow: hidden;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
          }
    .item {
       width calc((100% - 3 * 24px) / 4)
@@ -247,7 +250,7 @@ body {
    text-transform: uppercase;
    color: var(--all-button-color);
    display: inline-block;
-   margin-bottom: 16px;
+   
    }
    .footer-text {
    font-family: 'Roboto';
