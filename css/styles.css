@@ -70,13 +70,13 @@ body {
       text-decoration: none;
       color: var(--blue-logo-color);
        margin-right: 76px; 
-      display: inline-block;
+      display: flex;
       margin-bottom: 16px;
        
      }
 .studio-link {
    color: var(--black-logo-color);
-   display: inline-block;
+   display: flex;
       
     }
     /* Nav.menu */
