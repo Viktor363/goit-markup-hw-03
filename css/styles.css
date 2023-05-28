@@ -241,6 +241,7 @@ body {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--all-button-color);
+   display: inline-block;
    }
    .footer-text {
    font-family: 'Roboto';
