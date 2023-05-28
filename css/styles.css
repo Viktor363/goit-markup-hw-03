@@ -34,10 +34,7 @@ body {
                display: block;
             }
             .container {
-               display: flex;
-               align-items: center;
-               justify-content: space-between;
-               flex-direction: row;
+              
                width: 1158px;
                padding-left: 15px;
                padding-right: 15px;
@@ -74,12 +71,12 @@ body {
       color: var(--blue-logo-color);
        margin-right: 76px; 
       display: inline-block;
-         margin-bottom: 16px;
+       
      }
 .studio-link {
    color: var(--black-logo-color);
    display: inline-block;
-      margin-bottom: 16px;
+      
     }
     /* Nav.menu */
   .nav-link {
@@ -126,11 +123,12 @@ body {
    letter-spacing: 0.02em;
    color:var(--white-color);
    max-width: 496px;
+   margin-left: auto;
+   margin-right: auto;
  }
   /* Button Hero */
    .button-hero {
    font-family: "Roboto" , sans-serif;
-   
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
@@ -143,6 +141,8 @@ body {
    height: 56px;
    border: none;
    border-radius: 4px;
+   margin-left: auto;
+   margin-right: auto;
    
  }
  .button-hero:hover,
@@ -182,7 +182,7 @@ body {
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: var(--black-logo-color);
-      text-align: center;
+      
       margin-bottom: 8px;
    }
    .section-text-list {
@@ -190,7 +190,7 @@ body {
       line-height: 1.5;
       letter-spacing: 0.02em;
       color: var(--black-contacts-color);
-      text-align: center;
+      
 
    }
    /* Section 3 */
@@ -221,12 +221,13 @@ body {
        /* Section 4 */
    
    .section-persons {
-      background-color: var(--all-button-color);
-      padding-bottom: 120px 0;
+      padding-top: 120px;
+      padding-bottom: 120px;
    }
       .images-team {
        width: calc((100%-72px)/4);
        border-radius: 0px 0px 4px 4px;
+      background-color: var(--all-button-color);
       }
       .our-team {
          padding: 32px 16px;
@@ -257,7 +258,9 @@ body {
       color: var(--all-button-color);
       max-width: 264px;
    }
-   
+   .portfolio {
+   padding: 96px 0 120px 0;
+   }
       /* Buttons Portfolio */
       .btn-item {
          font-family: "Roboto", sans-serif;
