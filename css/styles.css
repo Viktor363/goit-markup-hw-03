@@ -165,7 +165,7 @@ body {
          clip: rect(0 0 0 0);
          overflow: hidden;
          }
-   .item {
+   .li.item {
       width calc((100% - 3 * 24px) / 4)
   } 
   .our-goals {
@@ -199,7 +199,7 @@ body {
           text-transform: capitalize;
           color: var(--black-logo-color);
          margin-bottom: 72px;
-         padding-bottom: 120px;
+         
        }
        .presentation-list 
        {
