@@ -160,7 +160,7 @@ body {
          clip: rect(0 0 0 0);
          overflow: hidden;
          }
-   .li.item {
+   .item {
       width calc((100% - 3 * 24px) / 4)
   } 
   .our-goals {
@@ -211,16 +211,16 @@ body {
        .li .images:not(:last-child) {
          margin-right: 24px;
        }  
-       .li .images {
+       .images {
          width: calc((100%-48px) / 3);
        }  
        /* Section 4 */
    
    .section-persons {
       background-color: var(--all-button-color);
-      padding-bottom: 120px;
+      padding-bottom: 120px 0;
    }
-      .li .images-team {
+      .images-team {
        width: calc((100%-72px) / 4);
        border-radius: 0px 0px 4px 4px;
       }
