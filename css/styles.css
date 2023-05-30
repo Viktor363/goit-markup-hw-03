@@ -265,6 +265,10 @@ body {
       background-color: var(--black-logo-color);
       padding: 100px 0;
    } 
+   .footer .a {
+     display: inline-block;
+     margin-bottom: 16px; 
+   }
    .footer-link {
    font-family: 'Raleway',sans-serif;
    font-weight: 800;
