@@ -80,7 +80,7 @@ body {
 
        
      }
-.studio-link {
+   .studio-link {
    color: var(--black-logo-color);
    display: flex;
       
@@ -265,7 +265,7 @@ body {
       background-color: var(--black-logo-color);
       padding: 100px 0;
    } 
-   .footer .a .web-link {
+     .web-link {
      display: inline-block;
      margin-bottom: 16px; 
    }
