@@ -76,14 +76,13 @@ body {
       text-decoration: none;
       color: var(--blue-logo-color);
        margin-right: 76px; 
-      display: flex;
+      
 
        
      }
    .studio-link {
    color: var(--black-logo-color);
-   display: flex;
-      
+   
     }
     /* Nav.menu */
   .nav-link {
