@@ -24,7 +24,16 @@ body {
      list-style: none;
      padding-left: 0;
      margin: 0;
-  }
+    }
+    .app-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+
+    }
+    /* .li .link :nth-child(3n) {
+       margin-right: 24px;
+     } */
       h1,
       h2,
       h3,
@@ -236,6 +245,7 @@ body {
    .section-persons {
       padding-top: 120px;
       padding-bottom: 120px;
+      background-color: var(--all-button-color);
    }
     .team-list {
       display: flex;
@@ -246,7 +256,8 @@ body {
       .images-team {
        width: calc((100%-72px)/4);
        border-radius: 0px 0px 4px 4px;
-      background-color: var(--all-button-color);
+       background-color: var(--white-color);
+      
       }
       .our-team {
          padding: 32px 16px;
@@ -266,7 +277,7 @@ body {
    } 
      .web-link {
      display: inline-block;
-     margin-bottom: 16px; 
+      
    }
    .footer-link {
    font-family: 'Raleway',sans-serif;
@@ -287,6 +298,7 @@ body {
       letter-spacing: 0.02em;
       color: var(--all-button-color);
       max-width: 264px;
+      margin-top: 16px;
    }
    .footer .container {
       margin-left: 156px;
@@ -304,12 +316,16 @@ body {
          cursor: pointer;
          color: var(--blue-logo-color);
          background-color: var(--all-button-color);
+         padding: 12px 24px;
+         border: 1px solid var(--border-color);
+         border-radius: 4px;
       }
    
       .btn-item:hover,
       .btn-item:focus {
          color: var(--white-color);
          background-color: var(--blue-text-color);
+         border: 1px solid transparent;
    
       }
             /* < !-- Illustration Images Portfolio--> */
@@ -317,7 +333,14 @@ body {
          list-style: none;
          padding-left: 0;
          margin: 0;
+         display: flex;
+         justify-content: center;
+         margin-bottom: 72px;
          }
+          .five-items:not(:last-child) {
+          margin-right: 24px;
+         }
+                   
       .portfolio-title-list {
                font-weight: 500;
                font-size: 20px;
