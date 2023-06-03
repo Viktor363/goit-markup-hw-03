@@ -336,12 +336,12 @@ body {
                flex-wrap: wrap;
                list-style: none;
             }
-      .app-list>*:not(:nth-child(3n)) {
+      .app-list>*:not(:nth-child(4)) {
          margin-right: 24px;
          margin-bottom: 48px;   
          }
       .illustration-images {
-         width: calc((100%-48px)/3);
+         width: calc((100% - 48px) / 3);
          }
          .title-text {
          padding: 32px 16px;
